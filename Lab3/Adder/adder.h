@@ -1,1 +1,3 @@
-float addShit(float a, float b);
+int fib(int n);
+
+int ackermann(int m, int n);
