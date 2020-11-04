@@ -6,7 +6,7 @@
 Student::Student(
     const std::string& name, 
     std::vector<ListaNote> dataSet, 
-    SimpleLogger* logger):m_name(name), m_dataSet(dataSet), m_MyLogger(logger) {}
+    Logger* logger):m_name(name), m_dataSet(dataSet), m_MyLogger(logger) {}
 
 void Student::showData() {
     m_MyLogger->info("Start Calculating");

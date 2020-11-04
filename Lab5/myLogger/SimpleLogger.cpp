@@ -1,8 +1,8 @@
 #include <iostream>
 
-#include "./MyLogger.hpp"
+#include "./Logger.hpp"
 
-SimpleLogger::SimpleLogger(): m_level(0) {}
+SimpleLogger::SimpleLogger(): Logger(), m_level(0) {}
 
 void SimpleLogger::info(const std::string& data) {
     if (m_level >= 0) {

@@ -1,15 +1,15 @@
 #include <string>
 
-class MyLogger
+class SimpleLogger
 {
 private:
     int m_level;
 public:
-    MyLogger();
+    SimpleLogger();
     void info(const std::string& data);
     void debug(const std::string& data);
     void setLevel(int level);
 private:
-    MyLogger& operator=( const MyLogger& );
-    MyLogger( const MyLogger& );
+    SimpleLogger& operator=( const SimpleLogger& );
+    SimpleLogger( const SimpleLogger& );
 };
