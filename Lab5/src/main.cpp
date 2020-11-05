@@ -38,7 +38,7 @@ int main() {
 
     noteDenis.push_back(noteMate);
 
-    SimpleLogger* myLogger = new SimpleLogger;
+    Logger* myLogger = new ColorLogger;
 
     myLogger->setLevel(1);
 

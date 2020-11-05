@@ -6,7 +6,7 @@ class Logger {
         virtual void info(const std::string& data) = 0;
         virtual void debug(const std::string& data) = 0;
         virtual void setLevel(int level) = 0;
-        virtual ~Logger();
+        virtual ~Logger() {};
 };
 
 class SimpleLogger: public Logger {
