@@ -24,7 +24,9 @@ ListaNote& ListaNote::operator= (const ListaNote &sec) {
     if (this == &sec)
         return *this;
 
-    m_note = sec.m_note;
+    std::vector<float>* temp = new std::vector<float>(sec.m_note);
+
+    m_note = *temp;
 
     return *this;
 }
