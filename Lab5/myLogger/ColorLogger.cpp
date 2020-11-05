@@ -12,7 +12,7 @@ const std::string CYAN = "\033[36m";
 const std::string WHITE = "\033[37m";      
 const std::string RESET = "\033[0m";
 
-ColorLogger::ColorLogger(): Logger(), m_level(0) {}
+ColorLogger::ColorLogger(): m_level(0) {}
 
 void ColorLogger::info(const std::string& data) {
     if (m_level >= 0) {

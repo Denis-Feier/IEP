@@ -3,9 +3,10 @@
 class Logger {
     
     public:
-        virtual void info(const std::string& data);
-        virtual void debug(const std::string& data);
-        virtual void setLevel(int level);
+        virtual void info(const std::string& data) = 0;
+        virtual void debug(const std::string& data) = 0;
+        virtual void setLevel(int level) = 0;
+        virtual ~Logger();
 };
 
 class SimpleLogger: public Logger {

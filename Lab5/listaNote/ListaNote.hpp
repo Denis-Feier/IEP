@@ -2,7 +2,7 @@
 
 class ListaNote
 {
-private:
+protected:
     /* data */
     std::vector<float> m_note;
 public:
@@ -11,5 +11,9 @@ public:
     float calculMedie();
 
     ListaNote(const ListaNote& note);
+
+    ListaNote& operator= (const ListaNote &sec);
+
+    std::vector<float>& getNote();
 };
 

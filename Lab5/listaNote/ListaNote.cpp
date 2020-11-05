@@ -13,3 +13,18 @@ float ListaNote::calculMedie() {
 
     return acc / m_note.size();
 }
+
+std::vector<float>& ListaNote::getNote() {
+    return m_note;
+}
+
+ListaNote& ListaNote::operator= (const ListaNote &sec) {
+
+
+    if (this == &sec)
+        return *this;
+
+    m_note = sec.m_note;
+
+    return *this;
+}
