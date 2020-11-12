@@ -1,7 +1,6 @@
 class Brawler {
     private:
         int hp;
-        bool alive;
         int damage;
         int randomGen(int max, int min);
         Brawler(int max, int min);
@@ -10,4 +9,5 @@ class Brawler {
         int getHP();
         int getDamage();
         bool isAlive();
+        void setHP(int val);
 };
