@@ -1,7 +1,7 @@
 #include <iostream>
 #include <memory>
 
-#include "../brawler/BrawlerFactory.hpp"
+#include "BrawlerFactory.hpp"
 
 void arenaFight(int fights, BrawlerFactory* fac1, BrawlerFactory* fac2);
 
