@@ -1,0 +1,1 @@
+add_library(brawler STATIC Brawler.cpp Brawler.hpp BrawlerFactory.cpp BrawlerFactory.hpp)
