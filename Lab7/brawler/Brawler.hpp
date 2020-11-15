@@ -7,7 +7,7 @@ class Brawler {
         int randomGen(int max, int min);
         Brawler(int max, int min);
     public:
-        static Brawler* createBrawler(int max, int min);
+        static Brawler createBrawler(int max, int min);
         int getHP();
         int getDamage();
         bool isAlive();

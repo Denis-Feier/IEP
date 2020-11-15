@@ -7,8 +7,8 @@ int Brawler::randomGen(int max, int min) {
 
 Brawler::Brawler(int max, int min) : hp(randomGen(max, min)), damage(randomGen(max, min)) {};
 
-Brawler* Brawler::createBrawler(int max, int min) {
-    return new Brawler(max, min);
+Brawler Brawler::createBrawler(int max, int min) {
+    return Brawler(max, min);
 }
 
 int Brawler::getDamage() {
