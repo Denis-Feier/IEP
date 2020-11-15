@@ -11,15 +11,15 @@ Brawler Brawler::createBrawler(int max, int min) {
     return Brawler(max, min);
 }
 
-int Brawler::getDamage() {
+int Brawler::getDamage() const {
     return (*this).damage;
 }
 
-int Brawler::getHP() {
+int Brawler::getHP() const {
     return (*this).hp;
 }
 
-bool Brawler::isAlive() {
+bool Brawler::isAlive() const {
     return hp > 0;
 }
 
