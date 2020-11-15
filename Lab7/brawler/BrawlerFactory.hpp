@@ -1,6 +1,8 @@
 #include "Brawler.hpp"
 
 class BrawlerFactory {
+
+    // Item 22: Declare data members private.
 private:
     BrawlerFactory(const BrawlerFactory&);
     BrawlerFactory& operator=(const BrawlerFactory&);

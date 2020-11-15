@@ -1,4 +1,6 @@
 class Brawler {
+
+    // Item 22: Declare data members private .
     private:
         int hp;
         int damage;
