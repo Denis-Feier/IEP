@@ -3,9 +3,18 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/usr/include",
+                "/usr/local/include",
+                "/usr/src/linux-headers-4.18.0-25/include",
+                "/usr/src/linux-headers-4.18.0-25-generic/include",
+                "/usr/src/linux-headers-4.18.0-25-generic/include",
+                "/usr/lib/gcc/x86_64-linux-gnu/8/include"
             ],
-            "defines": [],
+            "defines": [
+                "__GNUC__",
+                "__KERNEL__"
+            ],
             "compilerPath": "/home/linuxbrew/.linuxbrew/bin/gcc",
             "cStandard": "gnu11",
             "cppStandard": "c++17",
