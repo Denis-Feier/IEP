@@ -1,0 +1,1 @@
+cmd_/home/denisu/IEP/Lab8/Lab/text.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/denisu/IEP/Lab8/Lab/text.ko /home/denisu/IEP/Lab8/Lab/text.o /home/denisu/IEP/Lab8/Lab/text.mod.o ;  true
