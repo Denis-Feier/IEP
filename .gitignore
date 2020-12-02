@@ -45,3 +45,4 @@ CTestTestfile.cmake
 _deps
 .vscode/
 !Lab8/**/Makefile
+!Lab9/**/Makefile

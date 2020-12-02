@@ -1,0 +1,1 @@
+cmd_/home/denisu/IEP/Lab9/Lab9.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/denisu/IEP/Lab9/Lab9.ko /home/denisu/IEP/Lab9/Lab9.o /home/denisu/IEP/Lab9/Lab9.mod.o ;  true
