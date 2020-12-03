@@ -19,10 +19,10 @@ static int testdev_probe(struct platform_device *drv) {
 
     printk("hello from paltform device %s!\n", drv->name);
     
-    of_property_read_string(np, "string->property", &mystring);
+    of_property_read_string(np, "string_property", &mystring);
     printk("string from dtb: %s\n", mystring);
 
-    of_property_read_u32(np, "number property", &u32val);
+    of_property_read_u32(np, "number_property", &u32val);
     printk("number from dtb: %d\n", u32val);
 
     return 0;
