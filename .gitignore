@@ -46,3 +46,5 @@ _deps
 .vscode/
 !Lab8/**/Makefile
 !Lab9/**/Makefile
+
+!Lab10/**/Makefile

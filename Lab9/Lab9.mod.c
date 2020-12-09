@@ -29,4 +29,4 @@ MODULE_ALIAS("of:N*T*Ctext,mydeviceC*");
 MODULE_ALIAS("of:N*T*Ctext,mytestdevice");
 MODULE_ALIAS("of:N*T*Ctext,mytestdeviceC*");
 
-MODULE_INFO(srcversion, "21E10E63B53CFCE1F53582D");
+MODULE_INFO(srcversion, "48252947291176CC8EE3C2E");
