@@ -1,15 +1,15 @@
 #ifndef IEP_FIGURA_HPP
 #define IEP_FIGURA_HPP
 
-#include<list>
+#include<vector>
 
 #include "./Point.hpp"
 
 class Figura {
     protected:
-        std::list<Point>& points;
+        std::vector<Point>& points;
     public:
-        Figura(std::list<Point>& points);
+        Figura(std::vector<Point>& points);
         virtual float perimetru() = 0;
 };
 

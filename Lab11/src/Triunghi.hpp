@@ -7,7 +7,7 @@
 
 class Triunghi: Figura {
     public:
-        Triunghi(Point& p1, Point& p2, Point& p3);
+        Triunghi(std::vector<Point>& points);
         float perimetru();
 };
 

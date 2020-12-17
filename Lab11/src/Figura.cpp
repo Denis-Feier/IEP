@@ -1,3 +1,3 @@
 #include "./Figura.hpp"
 
-Figura::Figura(std::list<Point>& points): points(points) {};
+Figura::Figura(std::vector<Point>& points): points(points) {};

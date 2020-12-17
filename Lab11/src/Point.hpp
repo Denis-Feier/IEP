@@ -17,11 +17,4 @@ class Point {
 
 };
 
-template<typename X>
-float pantaDreptei(const X& p1, const X& p2);
-
-template<typename X>
-float distantaDintrePuncte(const X& p1, const X& p2);
-
-
 #endif //IEP_POINT_HPP

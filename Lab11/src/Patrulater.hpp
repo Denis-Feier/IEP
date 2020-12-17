@@ -5,7 +5,7 @@
 
 class Patrulater: Figura{
     public:
-        Patrulater(Point& p1, Point& p2, Point& p3, Point& p4);
+        Patrulater(std::vector<Point>& points);
         float perimetru();
 };
 

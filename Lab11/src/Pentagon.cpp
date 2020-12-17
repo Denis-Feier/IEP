@@ -1,6 +1,7 @@
 #include "Pentagon.hpp"
+#include "./Util.hpp"
 
-Pentagon::Pentagon(Point& p1, Point& p2, Point& p3, Point& p4, Point& p5): Figura({p1, p2, p3, p4, p5}) {};
+Pentagon::Pentagon(std::vector<Point>& points): Figura(points) {};
 
 float Pentagon::perimetru() {
 
@@ -10,9 +11,9 @@ float Pentagon::perimetru() {
     Point& p4 = points[3];
     Point& p5 = points[4];
 
-    return  distantaDintrePuncte(p1, p2) +
-            distantaDintrePuncte(p2, p3) +
-            distantaDintrePuncte(p3, p4) +
-            distantaDintrePuncte(p4, p5) +
-            distantaDintrePuncte(p5, p1);
+    return  Util<Point>::distantaDintrePuncte(p1, p2) +
+            Util<Point>::distantaDintrePuncte(p2, p3) +
+            Util<Point>::distantaDintrePuncte(p3, p4) +
+            Util<Point>::distantaDintrePuncte(p4, p5) +
+            Util<Point>::distantaDintrePuncte(p5, p1);
 };
