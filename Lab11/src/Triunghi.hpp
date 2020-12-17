@@ -1,9 +1,8 @@
 #ifndef IEP_TRIUNGHI_HPP
 #define IEP_TRIUNGHI_HPP
 
-
-
 #include "./Figura.hpp"
+#include "./Util.hpp"
 
 class Triunghi: Figura {
     public:

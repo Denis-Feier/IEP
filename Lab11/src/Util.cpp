@@ -1,12 +1,7 @@
-//
-// Created by denisu on 12/17/20.
-//
-
 #include "./Util.hpp"
 
-
 template<typename X>
-float Util<X>::pantaDreptei(const X& p1, const X& p2) {
+float Util::pantaDreptei(const X& p1, const X& p2) {
 
     float x1 = 0;
     x1 = p1.getX();
@@ -24,7 +19,7 @@ float Util<X>::pantaDreptei(const X& p1, const X& p2) {
 };
 
 template<typename X>
-float Util<X>::distantaDintrePuncte(const X& p1, const X& p2) {
+float Util::distantaDintrePuncte(const X& p1, const X& p2) {
 
     float x1 = 0;
     x1 = p1.getX();
@@ -40,5 +35,5 @@ float Util<X>::distantaDintrePuncte(const X& p1, const X& p2) {
 
     float pow1 = (x1 - x2) * (x1 - x2);
     float pow2 = (y1 - y2) * (y1 - y2);
-    return sqrt(pow1, pow2);
+    return sqrt(pow1 + pow2);
 };

@@ -2,6 +2,7 @@
 #define IEP_PATRULATER_HPP
 
 #include "./Figura.hpp"
+#include "./Util.hpp"
 
 class Patrulater: Figura{
     public:

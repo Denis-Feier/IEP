@@ -2,6 +2,7 @@
 #define IEP_PENTAGON_HPP
 
 #include "./Figura.hpp"
+#include "./Util.hpp"
 
 class Pentagon: Figura{
     public:

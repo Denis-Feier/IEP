@@ -8,17 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="34f6dea9-2e8b-4336-8758-d14345243b43" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab11/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab11/src/Figura.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/src/Figura.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab11/src/Figura.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/src/Figura.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab11/src/Patrulater.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/src/Patrulater.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab11/src/Patrulater.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/src/Patrulater.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab11/src/Pentagon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/src/Pentagon.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab11/src/Pentagon.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/src/Pentagon.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab11/src/Point.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/src/Point.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab11/src/Point.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/src/Point.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab11/src/Triunghi.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/src/Triunghi.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab11/src/Triunghi.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/src/Triunghi.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab11/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab11/src/Util.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/src/Util.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab11/src/Util.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/src/Util.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +81,7 @@
       <updated>1607457370892</updated>
       <workItem from="1607457379921" duration="625000" />
       <workItem from="1607550853425" duration="6875000" />
-      <workItem from="1608239687826" duration="3132000" />
+      <workItem from="1608239687826" duration="4046000" />
     </task>
     <servers />
   </component>
