@@ -4,7 +4,7 @@
 #include "./Figura.hpp"
 #include "./Util.hpp"
 
-class Triunghi: Figura {
+class Triunghi: public Figura {
     public:
         Triunghi(std::vector<Point>& points);
         float perimetru();

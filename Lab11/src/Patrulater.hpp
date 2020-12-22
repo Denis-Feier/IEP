@@ -4,7 +4,7 @@
 #include "./Figura.hpp"
 #include "./Util.hpp"
 
-class Patrulater: Figura{
+class Patrulater: public Figura{
     public:
         Patrulater(std::vector<Point>& points);
         float perimetru();

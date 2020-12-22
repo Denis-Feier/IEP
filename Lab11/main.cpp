@@ -46,9 +46,9 @@ int main() {
 
     std::cout << "OK" << std::endl;
 
-    std::cout << "Ii in cerc: " << inCerc(cerc, tr1);
-    std::cout << "Ii in cerc: " << inCerc(cerc, pat);
-    std::cout << "Ii in cerc: " << inCerc(cerc, pen);
+    std::cout << "Ii in cerc: " << inCerc(cerc, tr1) << std::endl;
+    std::cout << "Ii in cerc: " << inCerc(cerc, pat) << std::endl;
+    std::cout << "Ii in cerc: " << inCerc(cerc, pen) << std::endl;
 
     return 0;
 }

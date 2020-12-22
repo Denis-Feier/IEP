@@ -4,7 +4,7 @@
 #include "./Figura.hpp"
 #include "./Util.hpp"
 
-class Pentagon: Figura{
+class Pentagon: public Figura{
     public:
         Pentagon(std::vector<Point>& points);
         float perimetru();
