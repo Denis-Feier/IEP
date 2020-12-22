@@ -11,6 +11,7 @@ class Figura {
     public:
         Figura(std::vector<Point>& points);
         virtual float perimetru() = 0;
+        std::vector<Point>& getPoints() const;
 };
 
 

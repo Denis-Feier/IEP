@@ -8,5 +8,7 @@ float Triunghi::perimetru() {
     Point& p2 = points[1];
     Point& p3 = points[2];
 
-    return Util::distantaDintrePuncte(p1, p2) + Util::distantaDintrePuncte(p2, p3) + Util::distantaDintrePuncte(p3, p1);
+        return distantaDintrePuncte<Point>(p1, p2) +
+                distantaDintrePuncte<Point>(p2, p3) +
+                distantaDintrePuncte<Point>(p3, p1);
 };

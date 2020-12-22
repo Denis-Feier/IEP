@@ -9,8 +9,8 @@ float Patrulater::perimetru() {
     Point& p3 = points[2];
     Point& p4 = points[3];
 
-    return  Util::distantaDintrePuncte(p1, p2) +
-            Util::distantaDintrePuncte(p2, p3) +
-            Util::distantaDintrePuncte(p3, p4) +
-            Util::distantaDintrePuncte(p4, p1);
+    return  distantaDintrePuncte<Point>(p1, p2) +
+            distantaDintrePuncte<Point>(p2, p3) +
+            distantaDintrePuncte<Point>(p3, p4) +
+            distantaDintrePuncte<Point>(p4, p1);
 };
